@@ -1,6 +1,59 @@
-.portfolio_selfie {
-    width: 100px;
-    height: 100px;
+/* adding code for font styling here */
+h1,h4 {text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;}
+    
+
+
+h2,h3 {text-align: center;
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+color: gold;
 }
 
-/* adding code for styling here */
+p,ul,ol {font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+color: white}
+
+/*code for centering containers*/
+
+.portfolio_selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.text-centered {
+    text-align: center;
+  }
+.wrapper {
+    width: 500px;
+    margin: auto;
+  }
+/*colors for the backgrounds */
+body {background-color: black;}
+header {background-color: gold;}
+footer {text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: gold;}
+/* link styling*/
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: gold;
+  }
+  a:hover {
+    color: pink;
+  }
+  a:active {
+    color: blue;
+  }
+
+
