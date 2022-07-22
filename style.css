@@ -18,6 +18,16 @@ p,ul,ol {font-family: 'Times New Roman', Times, serif;
 font-size: 18px;
 color: white}
 
+div,article { padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: auto;
+    border: 1px solid gold;
+    border-radius: 25px;
+}
+
+
 /*code for centering containers*/
 
 .portfolio_selfie {
